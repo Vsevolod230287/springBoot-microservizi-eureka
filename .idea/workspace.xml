@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ae8ccf-ddd3-4c44-bcc9-e33a4ecd508c" name="Changes" comment="aggiunto client Eureca con servizio RESTful per il server Eureca" />
+    <list default="true" id="b9ae8ccf-ddd3-4c44-bcc9-e33a4ecd508c" name="Changes" comment="risolti bug di import perche ho cancellato la dipendenza test">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-client-2/src/main/java/ru/javabegin/micro/demo/eurekaclient2/controller/NewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +23,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/eureka-client">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/eureka-client-2">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/eureka-server">
@@ -57,7 +72,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -72,12 +90,17 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.EurekaClient2Application.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst-1.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst-2.executor": "Run",
+    "Spring Boot.EurekaClientApplication-inst-3.executor": "Run",
     "Spring Boot.EurekaClientApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "graalvm-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cerne/Progetti",
+    "last_opened_file_path": "C:/Users/cerne/Progetti/spring-micro-demo/eureka-client-2/src/main/java/ru/javabegin/micro/demo/eurekaclient2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,19 +109,56 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cerne\Progetti\spring-micro-demo\eureka-client-2\src\main\java\ru\javabegin\micro\demo\eurekaclient2" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
-    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClient2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-client-2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient2.EurekaClient2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst-1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst-2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication-inst-3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.javabegin.micro.demo.eurekaclient.EurekaClientApplication" />
       <method v="2">
@@ -112,6 +172,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst-1" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst-2" />
+      <item itemvalue="Spring Boot.EurekaClientApplication-inst-3" />
+      <item itemvalue="Spring Boot.EurekaClient2Application" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -131,7 +199,7 @@
       <updated>1728264214754</updated>
       <workItem from="1728264216061" duration="2109000" />
       <workItem from="1728266359895" duration="2637000" />
-      <workItem from="1728292588986" duration="4553000" />
+      <workItem from="1728292588986" duration="12506000" />
     </task>
     <task id="LOCAL-00001" summary="progetto vuoto Gradle che conterrà altri moduli">
       <option name="closed" value="true" />
@@ -149,7 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728297562543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aggiunto client Eureca con servizio RESTful per il server Eureca">
+      <option name="closed" value="true" />
+      <created>1728297779545</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728297779545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="risolti bug di import perche ho cancellato la dipendenza test">
+      <option name="closed" value="true" />
+      <created>1728297985905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728297985905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +252,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="progetto vuoto Gradle che conterrà altri moduli" />
-    <MESSAGE value="aggiunto client Eureca con servizio RESTful per il server Eureca" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunto client Eureca con servizio RESTful per il server Eureca" />
+    <MESSAGE value="impostato utf-8 per la codifica dei file" />
+    <MESSAGE value="impostato utf-8 per la codifica dei file" />
+    <MESSAGE value="risolti bug di import perche ho cancellato la dipendenza test" />
+    <option name="LAST_COMMIT_MESSAGE" value="risolti bug di import perche ho cancellato la dipendenza test" />
   </component>
 </project>
