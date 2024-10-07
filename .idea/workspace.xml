@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ae8ccf-ddd3-4c44-bcc9-e33a4ecd508c" name="Changes" comment="progetto vuoto Gradle che conterrà altri moduli">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-client/src/main/java/ru/javabegin/micro/demo/eurekaclient/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b9ae8ccf-ddd3-4c44-bcc9-e33a4ecd508c" name="Changes" comment="aggiunto client Eureca con servizio RESTful per il server Eureca" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +86,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.28735632",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,7 +131,7 @@
       <updated>1728264214754</updated>
       <workItem from="1728264216061" duration="2109000" />
       <workItem from="1728266359895" duration="2637000" />
-      <workItem from="1728292588986" duration="4298000" />
+      <workItem from="1728292588986" duration="4553000" />
     </task>
     <task id="LOCAL-00001" summary="progetto vuoto Gradle che conterrà altri moduli">
       <option name="closed" value="true" />
@@ -149,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728264773604</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aggiunto client Eureca con servizio RESTful per il server Eureca">
+      <option name="closed" value="true" />
+      <created>1728297562543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728297562543</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="progetto vuoto Gradle che conterrà altri moduli" />
-    <option name="LAST_COMMIT_MESSAGE" value="progetto vuoto Gradle che conterrà altri moduli" />
+    <MESSAGE value="aggiunto client Eureca con servizio RESTful per il server Eureca" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto client Eureca con servizio RESTful per il server Eureca" />
   </component>
 </project>
