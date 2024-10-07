@@ -3,7 +3,9 @@ Nel progetto ci sono un eureka-Server, un ApiGateway e 2 eureka-client di cui un
 LoadBalancer suddivide il carico in modo automatico(si può personalizzare)
 
 eureka-Server = tipo: eureka-server
+
 eureka-client = tipo: eureka-client
+
 api-gateway = tipo: eureka-client
 
 gestite routes personalizzate in api-gateway 
